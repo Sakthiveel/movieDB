@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer type="module" src="./js/controller.js"></script>
+    <title>Movie DB</title>
+</head>
+
+<body>
+
+    <header>
+        <form id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content">
+            <!-- <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/RuKGIhQj6VU" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe> -->
+                               
+        </div>
+        <div class="dots ">
+      
+          </div>
+       
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+
+
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+
+    </div>
+    <main id="main">
+        <!-- <div class="movie">
+            <img src="https://image.tmdb.org/t/p/w500/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg" alt="Minions: The Rise of Gru">
+
+           <div class="movie-info">
+               <h3>Minions: The Rise of Gru</h3>
+               <span class="orange">7.6</span>
+           </div>
+
+           <div class="overview">
+
+               <h3>Overview</h3>
+               A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.
+               <br> 
+               <button class="know-more" id="438148">Know More</button>
+       
+       </div></div> -->
+    </main>
+    <div class="pagination ">
+        <div class="page prev block" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page next " id="next">Next Page</div>
+
+    </div>
+
+
+</body>
+
+</html>
