@@ -9,11 +9,15 @@ class resultsView {
             const markUp=this._generateMarkUp(movie);
             this._parentElement.insertAdjacentHTML("beforeend",markUp);
         }
-        
+       
 
     }
     _clear(){
         this._parentElement.innerHTML='';
+    }
+
+    _nomoviesMarkUp(){
+        return `<div class="movie">No movies Ar</div>`;
     }
     _generateMarkUp(movie){
         return `

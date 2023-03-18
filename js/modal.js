@@ -56,7 +56,7 @@ export const getMoviesList =async function (searchQuery, pageNo = 1) {
       data.results[index] = createObj(result);
     });
     state.totalNoOfPages = data.total_pages;
-    
+    console.log(data.results);
     return data.results;
   } catch (err) {
     throw err;

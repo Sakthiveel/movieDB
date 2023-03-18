@@ -103,7 +103,7 @@ const init = async function () {
   searchView.formSubmitionHandler(controlSearch);
 
   // //Rendering the initial movies list:
-  const movieObj = await modal.getMoviesList("vikram");
+  const movieObj = await modal.getMoviesList("iron man");
   controlresults(movieObj);
   // Ex::
   //Redering the paginatiio container:

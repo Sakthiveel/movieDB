@@ -1,4 +1,4 @@
-const api_key = "dd5cbd78e2487e3ca45c7b37c9e39e2a";
+const api_key = process.env.API_KEY;
 const baseURL = "https://api.themoviedb.org/3/";
 const searchMovieURl = `search/movie?api_key=${api_key}&query=vikram`;
 const latestMoiesURL = `https://api.themoviedb.org/3/discover/movie?api_key=dd5cbd78e2487e3ca45c7b37c9e39e2a&language=en-US&region=in&&page=1&primary_release_date.gte=2022-06-10`;
